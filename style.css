@@ -2,7 +2,7 @@
 
 :root {
     --primary-color: #EF4444;
-    --off-white: #f3f4f6;
+    --off-primary: #FEF2F2;
     --dark-gray: #6b7280;
 }
 
@@ -140,8 +140,8 @@ hr {
     text-align: center;
 }
 
-.ow {
-    background-color: var(--off-white);
+.off-p {
+    background-color: var(--off-primary);
 }
 
 /* footers */
