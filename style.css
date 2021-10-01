@@ -183,6 +183,9 @@ hr {
     padding-inline-start: 0px;
     list-style: none;
 }
+.projects-list div li{
+    padding:1rem 0rem;
+}
 
 .projects-list div{
     padding: 1rem 0rem;
