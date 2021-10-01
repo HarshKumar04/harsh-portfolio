@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
     <title>Component file</title>
 </head>
 
@@ -24,13 +25,13 @@
 
     <h2>#Containers</h2>
     <h3>Fluid container</h3>
-    <div class="fluid-container">
+    <div class="container">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. In similique quia expedita adipisci ex iste tenetur
         veritatis exercitationem, dolores corporis?
     </div>
 
     <h3>Center container</h3>
-    <div class="center-container">
+    <div class="container center-container">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quasi omnis, aut totam velit, dolores, porro
         officiis corporis minus impedit veritatis.
     </div>
@@ -38,23 +39,23 @@
     <hr>
 
     <h2>#links</h2>
-    <a href="/" class="primary-link">Primary Link</a>
-    <a href="/" class="secondary-link">Secondary Link</a>
+    <a href="/" class="link primary-link">Primary Link</a>
+    <a href="/" class="link secondary-link">Secondary Link</a>
 
     <hr>
 
     <h2>#lists</h2>
     <p>unordered list without bullets</p>
-    <ul class="unordered">
+    <ul class="list-non-bullet">
         <li>home</li>
         <li>blog</li>
         <li>about us</li>
     </ul>
     <p>unordered inline item list</p>
-    <ul class="inline-list">
-        <li>contact us</li>
-        <li>services</li>
-        <li>offers</li>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">contact us</li>
+        <li class="list-item-inline">services</li>
+        <li class="list-item-inline">offers</li>
     </ul>
     <p>ordered reversed list</p>
     <ol class="ordered" reversed>
@@ -66,23 +67,29 @@
     <hr>
 
     <nav id="navigation">
-        <img src="/img" alt="WebAurTech">
-        <ul class="inline-list">
-            <li><a href="/">Home</a></li>
-            <li><a href="/">Blog</a></li>
-            <li><a href="/">Projects</a></li>
+        <div class="nav-brand">WebAurTech</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a href="/" class="link active">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="/" class="link">Blog</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="/" class="link">Projects</a>
+            </li>
         </ul>
     </nav>
 
     <hr>
 
-    <header id="header">
-        <img src="/img" alt="banner image">
-        <h1>The Web developer <span>Harsh</span></h1>
+    <header class="hero">
+        <img class="hero-img" src="/img/banner.svg" alt="banner image">
+        <h1 class="hero-heading">The Web developer <span class="heading-inverted">Harsh</span></h1>
     </header>
 
-    <section id="normal-section">
-        <div class="center-container">
+    <section class="section">
+        <div class="container center-container">
             <h2>normal section</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero excepturi veniam cupiditate libero
                 dignissimos sit, deserunt iusto illo. Minus illo dignissimos quae magni fuga voluptas id ut, impedit
@@ -90,8 +97,8 @@
         </div>
     </section>
 
-    <section id="off-white-section">
-        <div class="center-container">
+    <section class="section ow">
+        <div class="container center-container">
             <h2>off white section</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci placeat perferendis quis laborum odit
                 quaerat eius id ullam quod officia. Eius aliquam autem error, nostrum tempora laboriosam ipsam laborum in
@@ -99,16 +106,16 @@
         </div>
     </section>
     <hr>
-    <footer id="footer">
-        <h1>WebAurTech</h1>
-        <ul class="unordered">
-            <li class="inline-item-list">
+    <footer class="footer">
+        <h1 class="footer-header">WebAurTech</h1>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
                 <a href="/">Home</a>
             </li>
-            <li class="inline-item-list">
+            <li class="list-item-inline">
                 <a href="/">Blog</a>
             </li>
-            <li class="inline-item-list">
+            <li class="list-item-inline">
                 <a href="/">Projects</a>
             </li>
         </ul>
