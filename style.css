@@ -178,13 +178,22 @@ hr {
 
 
 /* Projects.html */
-#projects-list{
+.projects-list{
     font-family: 'Raleway', sans-serif;
+    padding-inline-start: 0px;
+    list-style: none;
 }
 
-#projects-list ol div{
+.projects-list div{
     padding: 1rem 0rem;
     border-radius: 1.5rem;
-    
+    margin: 1rem;
 }
+
+.projects-list div p{
+    margin-bottom: 2rem;
+}
+
+
+
 /* #Projects.html */
