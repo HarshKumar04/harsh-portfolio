@@ -1,0 +1,25 @@
+
+@media screen and (max-width:600px) {
+    body{
+        max-width: 100%;
+    }  
+    
+    #navigation .nav-pills{
+        margin: 0 .5rem;
+    }
+
+    .link{
+        padding: .3rem .5rem;
+    }
+    .list-item-inline{
+        padding: 0rem .3rem;
+    }
+
+    /* phone header */
+    #header{
+        padding: 1rem;
+        padding-top: 3rem;
+    }
+}
+
+
