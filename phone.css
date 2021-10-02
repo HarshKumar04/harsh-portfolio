@@ -26,6 +26,13 @@
         padding-top: 3rem;
     }
 
+    /* index.html */
+
+    .section div {
+        max-width: 900px;
+        margin: auto;
+    }
+
     /* phone projects.html */
 
     /* .projects-list li{
@@ -34,6 +41,8 @@
     .projects-list li .secondary-link{
         margin:.5rem ;
     }
+
+
 
     /* phone footer */
 
