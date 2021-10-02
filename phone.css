@@ -26,6 +26,15 @@
         padding-top: 3rem;
     }
 
+    /* phone projects.html */
+
+    /* .projects-list li{
+        padding: .4rem 0;
+    } */
+    .projects-list li .secondary-link{
+        margin:.5rem ;
+    }
+
     /* phone footer */
 
 }

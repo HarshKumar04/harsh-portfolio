@@ -183,9 +183,9 @@ hr {
     padding-inline-start: 0px;
     list-style: none;
 }
-.projects-list div li{
+/* .projects-list div li{
     padding:1rem 0rem;
-}
+} */
 
 .projects-list div{
     padding: 1rem 0rem;
@@ -197,6 +197,8 @@ hr {
     margin-bottom: 2rem;
 }
 
-
+.projects-list li{
+    padding: .4rem 0;
+}
 
 /* #Projects.html */
