@@ -216,3 +216,23 @@ hr {
 
 
 /* #Blog.html */
+
+/* URL blog1 */
+
+.blog1{
+    text-align: ;
+}
+
+.blog1 .blog1-img{
+    height: 350px;
+    width: 100%;
+}
+
+.blog1 h2, .blog1 p, .blog1 ul{
+    font-family: 'Raleway', sans-serif;
+}
+
+.blog1 ul li{
+    padding: 1rem;
+}
+/* #URL blog1 */
